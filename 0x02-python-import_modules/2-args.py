@@ -1,14 +1,15 @@
 #!/usr/bin/python3
+
 if __name__ == "__main__":
-    from sys import argv
-    arguments = argv[1:]
-    elements = len(arguments)
-    if elements == 0:
-        print("{} arguments.".format(elements))
-    elif elements == 1:
-        print("{} argument:".format(elements))
-        print("{}: {}".format(elements, arguments[0]))
+    """Hello Welcome To The Best School"""
+    import sys
+
+    count = len(sys.argv) - 1
+    if count == 0:
+        print("0 arguments.")
+    elif count == 1:
+        print("1 argument:")
     else:
-        print("{} arguments:".format(elements))
-        for i in range(0, elements):
-            print("{}: {}".format(i + 1, arguments[i]))
+        print("{} arguments:".format(count))
+    for i in range(count):
+        print("{}: {}".format(i + 1, sys.argv[i + 1]))
