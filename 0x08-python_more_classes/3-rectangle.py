@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 Module 3-rectangle
-Contains class Rectangle with private attribute length and breadth,
+Contains class Rectangle with private attribute width and height,
 public area and perimeter methods, and allows printing #'s
 """
 
