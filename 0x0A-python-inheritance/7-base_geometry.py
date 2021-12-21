@@ -13,14 +13,14 @@ class BaseGeometry:
         integer_validator(self, name, value)
     """
     def area(self):
-        """not initialized"""
-        raise Exception("area() is not added")
+        """not implemented"""
+        raise Exception("area() is not implemented")
 
     def integer_validator(self, name, value):
         """validates input
         Args:
             name (str): assumed always a string
-            value (int): > 0
+            value (int): greater than 0
         """
         if type(value) is not int:
             raise TypeError("{:s} must be an integer".format(name))
