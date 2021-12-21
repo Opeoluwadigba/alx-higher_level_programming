@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-"""Module for to_json_string function."""
-import json
+"""Module for append_write function."""
 
 
-def to_json_string(my_obj):
-    """This function return the object serialized by json."""
-    return json.dumps(my_obj)
+def append_write(filename="", text=""):
+    """This function appends a strings at the end of a text file."""
+    with open(filename, "a", encoding="utf-8") as f:
+        return f.write(text)
