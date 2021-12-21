@@ -13,7 +13,7 @@ class BaseGeometry:
         integer_validator(self, name, value)
     """
     def area(self):
-        """not added"""
+        """not initialized"""
         raise Exception("area() is not added")
 
     def integer_validator(self, name, value):
