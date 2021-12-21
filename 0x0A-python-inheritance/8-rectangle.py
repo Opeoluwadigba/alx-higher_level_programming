@@ -4,7 +4,7 @@ Module 8-rectangle
 Contains parent class BaseGeometry
 with public instance method area and integer_validator
 Contains subclass Rectangle
-with instantiation of private attributes length and breadth, validated by parent
+with instantiation of private attributes width and height, validated by parent
 """
 
 
@@ -14,7 +14,7 @@ BaseGeometry = __import__('7-base_geometry').BaseGeometry
 class Rectangle(BaseGeometry):
     """inherits from BaseGeometry
     Methods:
-        __init__(self, length, and breadth)
+        __init__(self, width, and height)
     """
     def __init__(self, width, height):
         """validate and initialize length and breadth
