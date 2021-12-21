@@ -13,6 +13,6 @@ def is_kind_of_class(obj, a_class):
         use isinstance() to get class and any parent classes too
         use issubclass() to get what object is a subclass of
     Return:
-       Positive truth values if obj is an instance of class that it inherited from
+       True if object is an instance of parent class.
     """
     return isinstance(obj, a_class)
