@@ -2,7 +2,6 @@
 """Module 9-student.py"""
 
 
-
 class Student():
     """Class that defines a student"""
     def__init__(self, first_name, last_name, age):
