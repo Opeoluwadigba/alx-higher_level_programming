@@ -1,2 +1,0 @@
--- Display all my SQL databases
-mysql> SHOW databases;
