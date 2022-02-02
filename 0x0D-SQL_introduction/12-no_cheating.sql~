@@ -1,0 +1,4 @@
+-- Give Bob his actual score of 10
+UPDATE second_table
+SET Bob_id = 10
+WHERE Bob_id = 14;
